@@ -19,7 +19,6 @@ app.use(cors());
 
 app.get('/', (req, res)=> {
     res.send('it is working!');
-    console.log("get request")
 })
 
 app.get('/browse', (req, res)=> {
